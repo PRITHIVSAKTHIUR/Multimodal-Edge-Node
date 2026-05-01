@@ -2,7 +2,16 @@
 
 Multimodal-Edge-Node is an experimental, node-based visual reasoning and multimodal inference canvas. It provides a unique, deeply customized web interface where users can visually connect input images, select from a diverse arsenal of 10 state-of-the-art vision-language models, define task parameters (such as query, caption, point, or detect), and observe real-time streaming outputs. The application goes beyond simple text generation by featuring a dedicated "Grounding Visualiser" node, which automatically parses JSON coordinate outputs from the models and renders precise bounding boxes or point markers directly onto the source image. Operating entirely on CUDA-enabled GPUs, this suite acts as a powerful, interactive sandbox for testing spatial grounding, optical character recognition, and instruction-following capabilities across various edge-optimized and unredacted models.
 
+---
 
+https://github.com/user-attachments/assets/fdbef908-1977-4765-b53e-664a2fdb289d
+
+---
+
+<img width="1899" height="1112" alt="screencapture-huggingface-co-spaces-prithivMLmods-Multimodal-Edge-Node-2026-05-01-14_23_13 (1)" src="https://github.com/user-attachments/assets/b530099c-10ec-40ed-b416-01c6fd09b87e" />
+<img width="1903" height="1194" alt="screencapture-huggingface-co-spaces-prithivMLmods-Multimodal-Edge-Node-2026-05-01-14_19_50" src="https://github.com/user-attachments/assets/3c442a57-caa8-4cf5-abd0-4ade45861895" />
+
+---
 
 ### **Key Features**
 
@@ -27,8 +36,6 @@ The application supports the following vision-language models:
 9.  **Qwen3.5-2B-Unredacted-MAX** (`prithivMLmods/Qwen3.5-2B-Unredacted-MAX`)
 10. **Qwen2.5-VL-3B-Instruct** (`Qwen/Qwen2.5-VL-3B-Instruct`)
 
----
-
 ### **Repository Structure**
 
 ```text
@@ -43,8 +50,6 @@ Multimodal-Edge-Node/
 ├── requirements.txt
 └── uv.lock
 ```
-
----
 
 ### **Installation and Requirements**
 
@@ -84,8 +89,6 @@ uv sync
 ```bash
 uv run app.py
 ```
-
----
 
 ### **Usage**
 
